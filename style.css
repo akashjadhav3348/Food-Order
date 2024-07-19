@@ -1,0 +1,91 @@
+.navbar{
+    background-color: #343a40 !important; /* Dark color */
+    height: 50px; /* Small height */
+}
+.navbar-brand {
+    color: white !important;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    padding: 5px 10px !important;
+    margin: 0px 10px !important;
+}
+.navbar-nav .nav-link.active {
+    color: #ffffff !important; /* Fresh color */
+    background-color: #3100f4;
+    border-radius: 2px;
+    
+}
+.navbar-toggler-icon {
+    color: grey !important;
+}
+.navbar-toggler {
+    border-color: white !important;
+    color: yellow !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #4CAF50; /* Fresh color */
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto 40px auto; /* Center table and add space at the bottom */
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #390000; /* Fresh color */
+    color: white;
+}
+button {
+    background-color: #4CAF50; /* Fresh color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.delete-button {
+    background-color: red; /* Red color for delete button */
+}
+.edit-button {
+    background-color: blue; /* Blue color for edit button */
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.nav-link:hover {
+    background-color:rgb(47, 0, 255);
+    border-radius: 2px;
+}
+footer {
+    background-color: #343a40; /* Dark color */
+    color: white;
+    text-align: center;
+    padding: 5px 0; /* Small height */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 40px; /* Add margin top */
+}
+.container {
+    margin-bottom: 20px; /* Add space between form and table */
+}
+.form-container {
+    border: 2px solid #000000; /* Add border to form */
+    background: linear-gradient(to right, #ff00b7, #492bf5); /* Add background gradient */
+    backdrop-filter: blur(10px); /* Add backdrop filter */
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-inline .form-group {
+    margin-right: 10px; /* Add space between form fields */
+}
+
+.carousel-item>img{
+    height: 550px !important; /* Set slider height to 50% */
+}
